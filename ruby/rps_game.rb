@@ -17,8 +17,8 @@ def rps_game_winner(game)
 	if movimento1 == movimento2
 		return player1
 	else
-		if (movimento1 == "R" and movimento2 == "S") or (movimento1 == "S" and movimento2 == "P") and (movimento1 == "P" and movimento2 == "R")
-			return player 1
+		if (movimento1 == "R" and movimento2 == "S") or (movimento1 == "S" and movimento2 == "P") or (movimento1 == "P" and movimento2 == "R")
+			return player1
 		else
 			return player2
 		end

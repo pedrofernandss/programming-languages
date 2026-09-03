@@ -24,7 +24,7 @@ class Dessert
 	end
 
 	def healthy?
-		if @caolries < 200
+		if @calories < 200
 			return true
 		else
 			return false
